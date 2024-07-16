@@ -20,7 +20,7 @@ jobs:
     - uses: actions/checkout@v2
       with:
         fetch-depth: 0
-    - uses: VandyTheCoder/vandy-repo-sync@v0.0.2
+    - uses: VandyTheCoder/vandy-repo-sync@v0.0.3
       with:
         # Such as https://github.com/VandyTheCoder/vandy-repo-sync.git
         target-url: <target-url>
