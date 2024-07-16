@@ -1,9 +1,5 @@
-# Git Repo Sync
-
-![build](https://github.com/VandyTheCoder/vandy-repo-sync/workflows/build/badge.svg)
-![license](https://img.shields.io/github/license/VandyTheCoder/git-repo-sync)
-
-Git Repo Sync enables you to synchronize code to other code management platforms, such as GitLab, Gitee, etc.
+# Vandy Repo Sync
+Vandy Repo Sync enables you to synchronize code to other code management platforms, such as GitLab, Gitee, etc.
 
 ## Try Git Repo Sync
 
@@ -24,7 +20,7 @@ jobs:
     - uses: actions/checkout@v2
       with:
         fetch-depth: 0
-    - uses: VandyTheCoder/vandy-repo-sync@v0.0.1
+    - uses: VandyTheCoder/vandy-repo-sync@v0.0.2
       with:
         # Such as https://github.com/VandyTheCoder/vandy-repo-sync.git
         target-url: <target-url>
