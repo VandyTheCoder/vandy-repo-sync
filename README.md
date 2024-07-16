@@ -1,7 +1,7 @@
 # Git Repo Sync
 
-![build](https://github.com/wangchucheng/git-repo-sync/workflows/build/badge.svg)
-![license](https://img.shields.io/github/license/wangchucheng/git-repo-sync)
+![build](https://github.com/VandyTheCoder/vandy-repo-sync/workflows/build/badge.svg)
+![license](https://img.shields.io/github/license/VandyTheCoder/git-repo-sync)
 
 Git Repo Sync enables you to synchronize code to other code management platforms, such as GitLab, Gitee, etc.
 
@@ -24,11 +24,11 @@ jobs:
     - uses: actions/checkout@v2
       with:
         fetch-depth: 0
-    - uses: wangchucheng/git-repo-sync@v0.1.0
+    - uses: VandyTheCoder/vandy-repo-sync@v0.0.1
       with:
-        # Such as https://github.com/wangchucheng/git-repo-sync.git
+        # Such as https://github.com/VandyTheCoder/vandy-repo-sync.git
         target-url: <target-url>
-        # Such as wangchucheng
+        # Such as vandy
         target-username: <target-username>
         # You can store token in your project's 'Setting > Secrets' and reference the name here. Such as ${{ secrets.ACCESS_TOKEN }}
         target-token: <target-token>
